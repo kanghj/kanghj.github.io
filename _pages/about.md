@@ -14,4 +14,7 @@ social: false
 ---
 
 
-Hello.
+Hello. I am working on my PhD at Singapore Management University! 
+I am interested in many aspects of Software Engineering research.
+
+
