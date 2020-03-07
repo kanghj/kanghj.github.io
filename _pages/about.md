@@ -15,6 +15,5 @@ social: false
 
 
 Hello. I am working on my PhD at Singapore Management University! 
-I am interested in many aspects of Software Engineering research.
-
+I am supervised by Prof. David Lo and I am interested in many aspects of Software Engineering research,
 
