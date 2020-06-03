@@ -5,4 +5,3 @@ inline: true
 ---
 
 I presented our work on Semantic Patches for Java Program Transformation at ECOOP 2019 in London!
-.

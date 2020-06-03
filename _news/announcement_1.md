@@ -5,4 +5,3 @@ inline: true
 ---
 
 I have a website now!
-.

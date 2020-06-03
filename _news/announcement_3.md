@@ -5,4 +5,3 @@ inline: true
 ---
 
 I presented our work on Assessing the Generalizability of Code2vec Token Embeddings at ASE 2019 in San Diego!
-.
