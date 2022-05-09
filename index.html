@@ -112,19 +112,19 @@ For mining behavioral models and sandboxes, we have mined automaton models <a hr
     </p>
     
    <p>
-We have analyzed some ML-based approaches, including the generalizability of a representative token-based embeddings <a href="http://www.mysmu.edu/faculty/davidlo/papers/ase19-code2vec.pdf">[ASE 2019]</a>, and
-addressed methodological issues for filtering warnings from static analyzers ([<a href="https://arxiv.org/abs/2202.05982">ICSE 2022</a>]).
+We have analyzed the features used in some ML-based approaches, including the generalizability of a representative token-based embeddings <a href="http://www.mysmu.edu/faculty/davidlo/papers/ase19-code2vec.pdf">[ASE 2019]</a>, and
+addressed methodological issues (in the computation of some features) for filtering warnings from static analyzers ([<a href="https://arxiv.org/abs/2202.05982">ICSE 2022</a>]).
     </p>
   
   <p>
 We are interested in helping developers use third-party systems (libraries and APIs). 
-For managing vulnerabilities, we have developed approaches that:
+For managing vulnerabilities, we have:
     <ol>
-    <li>automatically identify affected libraries from NVD entry (to be deployed by our industrial partner, Veracode, [<a href="https://kanghj.github.io/publications/xml_how_far_icpc_2022.pdf">ICPC 2022</a>]), </li>
-    <li>identifying commits that fix vulnerabilities (<a href="https://kanghj.github.io/publications/hermes_saner_2022.pdf">[SANER 2022]</a>), and </li>
-    <li>generate test cases that reveal usages of vulnerable library functionabilities ([ISSTA 2022]).</li>
+    <li>extracted features using pre-trained transformer models to automatically identify affected libraries from NVD entries (to be deployed by our industrial partner, Veracode, [<a href="https://kanghj.github.io/publications/xml_how_far_icpc_2022.pdf">ICPC 2022</a>]), </li>
+    <li>combined multiple information sources in identifying commits that fix vulnerabilities (<a href="https://kanghj.github.io/publications/hermes_saner_2022.pdf">[SANER 2022]</a>), and </li>
+    <li>developed abstractions of vulnerable behavior for generating test cases that reveal usages of vulnerable library functionabilities ([ISSTA 2022]).</li>
     </ol>
-For managing usage of APIs, we developed an API misuse detector that uses active learning for learning patterns from programs across GitHub ([<a href="https://arxiv.org/abs/2204.09945">TSE 2022</a>]).  
+For managing usage of APIs, we developed an API misuse detector that uses active learning for learning subgraph patterns from programs across GitHub ([<a href="https://arxiv.org/abs/2204.09945">TSE 2022</a>]).  
     </p>
 
 
