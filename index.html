@@ -100,7 +100,7 @@
 <p>
 Software (including AI) is eating the world but there is an incoming <a href="https://www.theatlantic.com/technology/archive/2017/09/saving-the-world-from-code/540393/">software apocalypse</a>.
 We desperately need better ways of understanding software systems.
-My research aims to develop approaches to design and mine abstractions to address important Software Engineering problems.
+My research aims to develop approaches to mine abstractions to address important Software Engineering problems.
   In my PhD, my research focused on bugs and vulnerabilities related to APIs and third-party components, e.g. libraries.
 </p>  
 
@@ -117,7 +117,7 @@ We mined behavioral models from traces generated using search-based test generat
     
    <p>
      Related to the abstractions of programs used in <em>Machine Learning for Software Engineering</em>, we analyzed the generalizability of a representative token-based embeddings <a href="http://www.mysmu.edu/faculty/davidlo/papers/ase19-code2vec.pdf">[ASE 2019]</a>.
-For filtering false alarms from static analysis, we addressed methodological issues [<a href="https://arxiv.org/abs/2202.05982">ICSE 2022</a> (<a href="https://kanghj.github.io/publications/Poster_icse_how_far.pdf">Poster</a>)] and proposed a new method for call graph pruning [<a href="https://arxiv.org/abs/2209.03230">FSE 2022</a>].
+For filtering false alarms from static analysis, we addressed methodological issues [<a href="https://arxiv.org/abs/2202.05982">ICSE 2022</a> (<a href="https://kanghj.github.io/publications/Poster_icse_how_far.pdf">Poster</a>)] and used language models for call graph pruning [<a href="https://arxiv.org/abs/2209.03230">FSE 2022</a>].
     </p>
   
   <p>          
@@ -127,12 +127,12 @@ For filtering false alarms from static analysis, we addressed methodological iss
 We are interested in improving the use of third-party systems (libraries and APIs). 
     For <em>managing library vulnerabilities</em>, we have:
     <ol>
-    <li>extracted features using pre-trained transformer models to automatically identify the libraries described in NVD entries (to be deployed by our industrial partner, Veracode) [<a href="https://kanghj.github.io/publications/xml_how_far_icpc_2022.pdf">ICPC 2022</a>], </li>
+    <li>extracted features using transformer models and zero-shot approaches to automatically identify the libraries described in NVD entries (to be deployed by our industrial partner) [<a href="https://kanghj.github.io/publications/xml_how_far_icpc_2022.pdf">ICPC 2022</a>, ICSE 2023], </li>
     <li>combined information from multiple  sources in identifying possible vulnerabilities based on the commit history of open-source projects <a href="https://kanghj.github.io/publications/hermes_saner_2022.pdf">[SANER 2022]</a>, and </li>
     <li>generated test cases for programs to assess the exploitability of library vulnerabilities [<a href="https://kanghj.github.io/publications/issta2022_test_mimicry.pdf">ISSTA 2022</a>].</li>
     </ol>
    
-For managing usage of APIs, we developed an API misuse detector that uses active learning for learning subgraph patterns from programs across GitHub [<a href="https://arxiv.org/abs/2204.09945">TSE 2022</a>].  
+For APIs, we developed an API misuse detector that uses active learning for learning subgraph patterns from programs across GitHub [<a href="https://arxiv.org/abs/2204.09945">TSE 2022</a>].  
     </p>
 
 
