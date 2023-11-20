@@ -118,7 +118,7 @@ I am interested in mining task-specific abstractions (e.g. specifications/rules)
     
    <p>
      Related to programs abstractions used in <em>Machine Learning for Software Engineering</em>, we analyzed the generalizability of a representative token-based embeddings <a href="http://www.mysmu.edu/faculty/davidlo/papers/ase19-code2vec.pdf">[ASE 2019]</a>.
-For filtering false positives from static analysis, we addressed methodological issues [<a href="https://arxiv.org/abs/2202.05982">ICSE 2022</a> (<a href="https://kanghj.github.io/publications/Poster_icse_how_far.pdf">Poster</a>)], and used large language models for refining call graphs [<a href="https://arxiv.org/abs/2209.03230">FSE 2022</a>].
+For filtering false positives from static analyzers, we addressed methodological issues [<a href="https://arxiv.org/abs/2202.05982">ICSE 2022</a> (<a href="https://kanghj.github.io/publications/Poster_icse_how_far.pdf">Poster</a>)], and used large language models for refining call graphs [<a href="https://arxiv.org/abs/2209.03230">FSE 2022</a>].
     </p>
   
     <p>
@@ -127,15 +127,15 @@ For filtering false positives from static analysis, we addressed methodological 
   <p>          
           <strong>Library and API usage</strong>. 
 
-    Modern software development involves the heavy use of third-party systems (libraries and their APIs).
-    For <em>library vulnerabilities</em>, we have:
+    Modern software development heavily uses third-party systems (e.g., libraries).
+    For <em>library vulnerabilities</em>, we have built systems that have been deployed by our industrial partners. We have :
     <ol>
-    <li>employed a transformer model and a zero-shot approach to automatically identify the libraries described in NVD entries (have been deployed by our industrial partners) [<a href="https://kanghj.github.io/publications/xml_how_far_icpc_2022.pdf">ICPC 2022</a>, <a href="https://arxiv.org/pdf/2301.03944.pdf">ICSE 2023</a>], </li>
-    <li>identified vulnerabilities by analyzing the commit history of open source projects [<a href="https://kanghj.github.io/publications/hermes_saner_2022.pdf">SANER 2022</a>, <a href="https://dl.acm.org/doi/pdf/10.1145/3540250.3558936">ICSE 2022</a>, <a href="https://arxiv.org/abs/2305.13884">TSE</a>], and </li>
-    <li>generated test cases for programs for assessing the exploitability of vulnerabilities in libraries they imported[<a href="https://kanghj.github.io/publications/issta2022_test_mimicry.pdf">ISSTA 2022</a>].</li>
+    <li>employed a large language model and a zero-shot approach to automatically identify the libraries described in NVD entries [<a href="https://kanghj.github.io/publications/xml_how_far_icpc_2022.pdf">ICPC 2022</a>, <a href="https://arxiv.org/pdf/2301.03944.pdf">ICSE 2023</a>], </li>
+    <li>helped monitor the commit history of open source projects to detect unreported vulnerabilities [<a href="https://kanghj.github.io/publications/hermes_saner_2022.pdf">SANER 2022</a>, <a href="https://dl.acm.org/doi/pdf/10.1145/3540250.3558936">ICSE 2022</a>, <a href="https://arxiv.org/abs/2305.13884">TSE</a>], and </li>
+    <li>generated test cases for programs for assessing the possible impact of library vulnerabilities[<a href="https://kanghj.github.io/publications/issta2022_test_mimicry.pdf">ISSTA 2022</a>].</li>
     </ol>
    
-For APIs, we developed an API misuse detector using active learning for learning from programs on GitHub [<a href="https://arxiv.org/abs/2204.09945">TSE 2022</a>], and fuzzed TensorFlow and PyTorch (leading to over 20 CVEs) [under submission to <a href="https://kanghj.github.io/publications/skipfuzz_2023.pdf">TSE</a>].  
+    For APIs, we developed an API misuse detector using active learning for learning from programs on GitHub [<a href="https://arxiv.org/abs/2204.09945">TSE 2022</a>], and fuzzed the APIs of TensorFlow and PyTorch (leading to over 20 CVEs) [under submission to <a href="https://kanghj.github.io/publications/skipfuzz_2023.pdf">TSE</a>].  
     </p>
 
 
