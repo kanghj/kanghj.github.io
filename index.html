@@ -103,7 +103,6 @@ Software (including AI) is eating the world but there is an incoming <a href="ht
 We desperately need better ways of understanding software systems.
 My research aims to develop approaches that empower human users to address important Software Engineering problems.
   To do so, we develop approriate task-relevant abstractions.
-  In my PhD, my research focused on bugs and vulnerabilities related to APIs and third-party components, e.g. libraries.
 </p>  
 
     <p>I can be contacted at hjkang[at]cs.ucla.edu or hjkang.2018[at]phdcs.smu.edu.sg</p>
@@ -128,17 +127,19 @@ For filtering false alarms from static analyzers, we addressed methodological is
       By refining a model of the API's pre-conditions, we fuzzed TensorFlow and PyTorch (<a href="https://nvd.nist.gov/vuln/detail/CVE-2022-29204">r</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-2841439">e</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOWCPU-2841417">s</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOWCPU-2841389">u</a><a href=" https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-2841463">l</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOWCPU-2841437">t</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-3026929">i</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-3026914">n</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOWGPU-3026809">g</a> <a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-3026820">i</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOWCPU-3026948">n</a> <a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOWGPU-3026805">o</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOWGPU-3026884">v</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-3136196">e</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-3136212">r</a> <a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-3136208">2</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOWCPU-3136242">0</a> <a href="https://security.snyk.io/vuln/SNYK-UNMANAGED-TENSORFLOWTENSORFLOW-3136227">C</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-3136220">V</a><a href="https://security.snyk.io/vuln/SNYK-UNMANAGED-TENSORFLOWTENSORFLOW-3136255">E</a> <a href="https://security.snyk.io/vuln/SNYK-UNMANAGED-TENSORFLOWTENSORFLOW-3136271">I</a><a href="https://security.snyk.io/vuln/SNYK-UNMANAGED-TENSORFLOWTENSORFLOW-3136279">D</a><a href="https://github.com/tensorflow/tensorflow/blob/master/tensorflow/security/advisory/tfsa-2022-170.md">s</a>) [under submission to <a href="https://kanghj.github.io/publications/skipfuzz_2023.pdf">TSE</a>].
     </p>
   <p>          
+    <p>
           <strong>Library and API usage</strong>. 
+    </p>
 
     Modern software development heavily uses third-party systems (e.g., libraries).
-    For <em>library vulnerabilities</em>, we have built systems that have been deployed by our industrial partners. We have :
+    We have built systems that have been deployed by our industrial partners. We have :
     <ol>
     <li>employed large language models and a zero-shot approach to automatically identify the libraries described in NVD entries [<a href="https://kanghj.github.io/publications/xml_how_far_icpc_2022.pdf">ICPC 2022</a>, <a href="https://arxiv.org/pdf/2301.03944.pdf">ICSE 2023</a>], </li>
     <li>helped in monitoring open source repositories to detect unreported vulnerabilities [<a href="https://kanghj.github.io/publications/hermes_saner_2022.pdf">SANER 2022</a>, <a href="https://dl.acm.org/doi/pdf/10.1145/3540250.3558936">ICSE 2022</a>, <a href="https://arxiv.org/abs/2305.13884">TSE 2023</a>], and </li>
     <li>used test generation for assessing the possible impact and reachability of library vulnerabilities[<a href="https://kanghj.github.io/publications/issta2022_test_mimicry.pdf">ISSTA 2022</a>].</li>
     </ol>
    
-    For API usage, we developed an API misuse detector using active learning to learn from programs on GitHub [<a href="https://arxiv.org/abs/2204.09945">TSE 2022</a>].   
+    For API usage, we used active learning for detecting API misuses, learning from the large diversity of programs on GitHub [<a href="https://arxiv.org/abs/2204.09945">TSE 2022</a>].   
     </p>
 
 
@@ -146,7 +147,9 @@ For filtering false alarms from static analyzers, we addressed methodological is
     
 
 <p>
+  <p>
 <strong>Program transformation</strong>. 
+  </p>
 We developed Coccinelle4J <a href="https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=5488&context=sis_research">[ECOOP 2019]</a> for program transformation of Java programs, extending the Coccinelle program matching and transformation tool. 
   Coccinelle is widely adopted in the Linux kernel and C systems software. To build better tools, there are many lessons we can learn from Coccinelle.
     </p>
