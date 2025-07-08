@@ -128,8 +128,7 @@ Particularly, I am interested to understand how to best make use of human knowle
    <p>
      My research primarily focuses on Active Learning for Software Engineering. 
      We have investigated the use of Active Learning for learning code search patterns[<a href="https://arxiv.org/abs/2204.09945">TSE 2022</a>, <a href="https://kanghj.github.io/publications/icse24.pdf">ICSE 2024</a>], 
-     analyzed code embeddings <a href="http://www.mysmu.edu/faculty/davidlo/papers/ase19-code2vec.pdf">[ASE 2019]</a>.
-    We have also used AI for program analysis [<a href="https://arxiv.org/abs/2202.05982">ICSE 2022</a> (<a href="https://kanghj.github.io/publications/Poster_icse_how_far.pdf">Poster</a>), <a href="https://ieeexplore.ieee.org/abstract/document/10012496">TSE 2023</a>, <a href="https://arxiv.org/abs/2209.03230">FSE 2022</a>].
+     analyzed code embeddings <a href="http://www.mysmu.edu/faculty/davidlo/papers/ase19-code2vec.pdf">[ASE 2019]</a>, and AI for program analysis [<a href="https://arxiv.org/abs/2202.05982">ICSE 2022</a> (<a href="https://kanghj.github.io/publications/Poster_icse_how_far.pdf">Poster</a>), <a href="https://ieeexplore.ieee.org/abstract/document/10012496">TSE 2023</a>, <a href="https://arxiv.org/abs/2209.03230">FSE 2022</a>].
      
     </p>
            
@@ -140,8 +139,7 @@ Particularly, I am interested to understand how to best make use of human knowle
     </p>
 
     <p>
-    Modern software development depend on third-party systems/libraries.
-    We have built tools employing a range of techniques (e.g., large language models, fuzzers) that have been deployed by our industrial partners. 
+    To secure the software supply chain, we have built tools employing a range of techniques (e.g., LLMs, fuzzers) that have been deployed by our industrial partners. 
     These tools analyze vulnerability reports [<a href="https://kanghj.github.io/publications/xml_how_far_icpc_2022.pdf">ICPC 2022</a>, <a href="https://arxiv.org/pdf/2301.03944.pdf">ICSE 2023</a>], 
     detect security fixes [<a href="https://dl.acm.org/doi/pdf/10.1145/3540250.3558936">ICSE 2022</a>, <a href="https://arxiv.org/abs/2305.13884">TSE 2023</a>], and 
     fuzz libraries to assess vulnerabilities' exploitability [<a href="https://kanghj.github.io/publications/issta2022_test_mimicry.pdf">ISSTA 2022</a>] and find bugs (<a href="https://nvd.nist.gov/vuln/detail/CVE-2022-29204">r</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-2841439">e</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOWCPU-2841417">s</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOWCPU-2841389">u</a><a href=" https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-2841463">l</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOWCPU-2841437">t</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-3026929">i</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-3026914">n</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOWGPU-3026809">g</a> <a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-3026820">i</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOWCPU-3026948">n</a> <a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOWGPU-3026805">o</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOWGPU-3026884">v</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-3136196">e</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-3136212">r</a> <a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-3136208">2</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOWCPU-3136242">0</a> <a href="https://security.snyk.io/vuln/SNYK-UNMANAGED-TENSORFLOWTENSORFLOW-3136227">C</a><a href="https://security.snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-3136220">V</a><a href="https://security.snyk.io/vuln/SNYK-UNMANAGED-TENSORFLOWTENSORFLOW-3136255">E</a> <a href="https://security.snyk.io/vuln/SNYK-UNMANAGED-TENSORFLOWTENSORFLOW-3136271">I</a><a href="https://security.snyk.io/vuln/SNYK-UNMANAGED-TENSORFLOWTENSORFLOW-3136279">D</a><a href="https://github.com/tensorflow/tensorflow/blob/master/tensorflow/security/advisory/tfsa-2022-170.md">s</a>).
@@ -155,12 +153,9 @@ Particularly, I am interested to understand how to best make use of human knowle
 <strong>Program Transformation</strong>. 
   </p>
     <p>
-We developed Coccinelle4J <a href="https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=5488&context=sis_research">[ECOOP 2019]</a> for program transformation of Java programs, extending the Coccinelle program matching and transformation tool. 
+We developed Coccinelle4J <a href="https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=5488&context=sis_research">[ECOOP 2019]</a> for Java program transformation, extending the Coccinelle program matching and transformation tool. 
   Coccinelle is widely adopted, including by Linux kernel developers. There are many lessons we can learn from Coccinelle.
-    </p>
-    
-    <p>
-      We have worked on the automated <em>migration of deprecated Android API methods</em>  [<a href="https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=5827&context=sis_research">ICSME 2019</>, <a href="https://arxiv.org/abs/2005.13220">ICPC 2020 
+      Building on this, we have worked on the automated <em>migration of deprecated Android API methods</em>  [<a href="https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=5827&context=sis_research">ICSME 2019</>, <a href="https://arxiv.org/abs/2005.13220">ICPC 2020 
       ERA</a>, <a href="https://arxiv.org/pdf/2011.05020">EMSE 2022</a>]. 
     Other work include <em>machine learning on code changes & commits</em> <a href="https://arxiv.org/pdf/2003.05620.pdf">[ICSE 2020</a>, <a href="https://kanghj.github.io/publications/hermes_saner_2022.pdf">SANER 2022]</a> 
     </p>
